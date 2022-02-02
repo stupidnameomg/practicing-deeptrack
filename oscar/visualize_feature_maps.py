@@ -1,4 +1,5 @@
 import keras
+import matplotlib.pyplot as plt
 
 def visualize_feature_maps(model, image_of_particle, SUBPLOT_SIZE=6, SUBPLOT_WIDTH=8):
     """
