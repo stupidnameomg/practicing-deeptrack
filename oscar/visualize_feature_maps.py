@@ -25,7 +25,7 @@ def visualize_feature_maps(model, image_of_particle, SUBPLOT_SIZE=6, SUBPLOT_WID
     plt.show()
 
     # Plotting all outputs from convolutional layer, each layer is given its own figure
-
+    IMAGE_SIZE = image_of_particle.shape[0]
     img = image_of_particle.reshape(1, IMAGE_SIZE, IMAGE_SIZE, 2) # Reshape needed for model prediction input
 
     for layer in model.layers:
