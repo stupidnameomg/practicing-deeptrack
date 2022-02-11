@@ -1,6 +1,10 @@
 """
-Functions to be used together with the DeepTrack-package and associated functions. The function 'cropParticles' 
-takes an image with several particles in it and outputs a list of sub-images containing only one particle each. 
+Functions to be used together with the DeepTrack-
+package and associated functions.
+The function 'cropParticles'
+takes an image with several particles in it and
+outputs a list of sub-images
+containing only one particle each. 
 
 """
 
