@@ -40,7 +40,7 @@ def propagation_matrix(
     z,
     shape=(64, 64),
     padding=64,
-    wavelength=633e-9,
+    wavelength=633e-9, #525 nm!
     pixel_size=0.34e-6,
 ):
 
